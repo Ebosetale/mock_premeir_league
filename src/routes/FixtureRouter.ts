@@ -47,7 +47,7 @@ const router: Router = Router();
  *                $ref: '#/components/Fixture/Error'
  */
 router.get(
-  "/:page/:status",
+  "/:status/:page",
   jwtConfig.isAuthenticated,
   FixtureComponent.findAll
 );
