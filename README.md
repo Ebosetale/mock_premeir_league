@@ -1,4 +1,4 @@
-# Node.js Express API with TypeScript 3
+# Mock Premier League Node.js Express API with TypeScript
 
 ![CircleCI branch](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser/master.svg?style=flat-square)
 ![npm](https://img.shields.io/npm/dm/localeval.svg?style=flat-square)
@@ -103,4 +103,10 @@ Swagger documentation will be available on route:
 
 ```bash
 http://localhost:3000/docs
+```
+
+## Hosted URL
+
+```bash
+https://ebos12-mock-premier-league.herokuapp.com/
 ```
