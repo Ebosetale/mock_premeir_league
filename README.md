@@ -5,7 +5,7 @@
 ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg?style=flat-square)
 ![onix](https://img.shields.io/badge/onix-systems-blue.svg)
 
-> Node.js Express API with TypeScript 3. Supports MongoDB
+> Mock Premier League Node.js Express API with TypeScript.
 
 ## Description
 
@@ -86,11 +86,7 @@ npm test
 
 ## Postman
 
-Postman API documentation is available on route:
-
-```bash
-https://documenter.getpostman.com/view/949328/SVYwLx26?version=latest
-```
+Postman [API documentation is available on route:](https://documenter.getpostman.com/view/949328/SVYwLx26?version=latest)
 
 ## Swagger
 
@@ -107,6 +103,4 @@ http://localhost:3000/docs
 
 ## Hosted URL
 
-```bash
-https://ebos12-mock-premier-league.herokuapp.com/
-```
+The application is hosted on [Heroku free server](https://ebos12-mock-premier-league.herokuapp.com/)
