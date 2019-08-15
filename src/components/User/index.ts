@@ -79,9 +79,9 @@ export async function setAdmin(
   next: NextFunction
 ): Promise<void> {
   try {
-    const user: IUserModel = await UserService.insert(req.body);
+    const user: IUserModel = await UserService.setAdmin(req.body);
 
-    res.status(201).json(user);
+    res.status(200).json(user);
   } catch (error) {
     next(new HttpError(error.message.status, error.message));
   }

@@ -76,7 +76,7 @@ const FixtureService: IFixtureService = {
    */
   async findAll(status: string, page: number): Promise<IFixtureModel[]> {
     try {
-      const pageSize = 1;
+      const pageSize = 10;
       const actualPage = !isNaN(page) && page > 0 ? page - 1 : 0;
       const skip = pageSize * actualPage;
       const actualStatus =

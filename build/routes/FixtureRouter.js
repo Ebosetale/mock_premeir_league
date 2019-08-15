@@ -46,7 +46,7 @@ const router = express_1.Router();
  *              schema:
  *                $ref: '#/components/Fixture/Error'
  */
-router.get("/:page/:status", jwtConfig.isAuthenticated, components_1.FixtureComponent.findAll);
+router.get("/:status/:page", jwtConfig.isAuthenticated, components_1.FixtureComponent.findAll);
 /**
  * POST method route
  * @example http://localhost:PORT/v1/fixtures

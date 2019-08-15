@@ -75,7 +75,7 @@ const FixtureService = {
     findAll(status, page) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const pageSize = 1;
+                const pageSize = 10;
                 const actualPage = !isNaN(page) && page > 0 ? page - 1 : 0;
                 const skip = pageSize * actualPage;
                 const actualStatus = status !== null && status.trim() !== "" ? status.toLowerCase() : "";

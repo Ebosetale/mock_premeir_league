@@ -75,10 +75,10 @@ router.post("/", UserComponent.create);
 
 /**
  * PUT method route
- * @example http://localhost:PORT/v1/users
+ * @example http://localhost:PORT/v1/users/setAdmin
  *
  * @swagger
- * /v1/users:
+ * /v1/users/setAdmin:
  *   post:
  *      description: Create new User
  *      tags: ["users"]
@@ -109,7 +109,7 @@ router.post("/", UserComponent.create);
  *              schema:
  *                $ref: '#/components/schemas/Error'
  */
-router.put("/", jwtConfig.isAdmin, UserComponent.setAdmin);
+router.put("/setAdmin", jwtConfig.isAdminAuthenticated, UserComponent.setAdmin);
 
 /**
  * GET method route

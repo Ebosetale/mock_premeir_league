@@ -86,11 +86,3 @@ export function isAdminAuthenticated(
 
   return next(new HttpError(400, "No token provided"));
 }
-
-export function isAdmin(
-  eq: RequestWithUser,
-  res: Response,
-  next: NextFunction
-): void {
-  console.log(eq);
-}
