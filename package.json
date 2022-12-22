@@ -46,7 +46,7 @@
     "express": "4.16.2",
     "helmet": "3.9.0",
     "joi": "14.3.0",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "mongoose": "5.4.0",
     "redis-typescript": "^0.1.2",
     "ts-node": "6.0.3",
