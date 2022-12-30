@@ -78,7 +78,7 @@
     "chai": "4.2.0",
     "jest": "^24.8.0",
     "jsdoc": "^3.6.3",
-    "mocha": "6.2.0",
+    "mocha": "10.2.0",
     "nodemon": "1.18.10",
     "source-map-loader": "0.2.4",
     "supertest": "4.0.2",
